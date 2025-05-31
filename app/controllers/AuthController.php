@@ -9,7 +9,7 @@ class AuthController extends Controller
         {
             header('Location: /kodicode/' . $_SESSION['user']['role'] . '/dashboard');
         }
-        $this->view('auth/login');
+        $this->view('auth/login',[]);
     }
 
     public function handleLogin()

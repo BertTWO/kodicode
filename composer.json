@@ -1,5 +1,6 @@
 {
     "require": {
-        "phroute/phroute": "^2.2"
+        "phroute/phroute": "^2.2",
+        "erusev/parsedown": "^1.7"
     }
 }

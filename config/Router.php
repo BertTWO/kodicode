@@ -11,16 +11,12 @@ class Router {
 
             $this->router = new RouteCollector();
     }
-
-
     public function get($path, $controller, $action = null) {
         $this->router->get($path, [$controller, $action]);
     }
-
     public function post($path, $controller, $action = null) {
         $this->router->post($path, [$controller, $action]);
     }
-
     public function put($path, $controller, $action = null) {
         $this->router->put($path, [$controller, $action]);
     }
@@ -28,8 +24,6 @@ class Router {
     public function delete($path, $controller, $action = null) {
         $this->router->delete($path, [$controller, $action]);
     }
-
-    
    public function dispatch() {
     $dispatcher = new Dispatcher($this->router->getData());
 

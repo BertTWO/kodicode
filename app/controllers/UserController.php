@@ -17,7 +17,6 @@ class UserController extends Controller
         return json_encode($users);
     }
 
-    
     public function getById($id)
     {
         $user = new user();
@@ -26,7 +25,8 @@ class UserController extends Controller
 
     public function viewRegister()
     {
-        $this->view('auth/register'); 
+        
+        $this->view('auth/register',[]); 
     }
 
     public function handleRegister()
@@ -47,8 +47,7 @@ class UserController extends Controller
             echo "Email already exists.";
             return;
         }
-
-
+        
         $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
         $userModel->insert([
@@ -58,7 +57,6 @@ class UserController extends Controller
             'role' => $role,
         ]);
 
-        echo "Registration successful. Please login.";
         header('Location: /kodicode/log-in');
         exit();
     }

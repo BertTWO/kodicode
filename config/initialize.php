@@ -2,7 +2,7 @@
 session_start();
 
 define("BASE_PATH", __DIR__. '/../');
-
+define("ASSETS_FOLDER",__DIR__.'/../public');
 
 spl_autoload_register(function($class) {
 
