@@ -1,0 +1,23 @@
+[33mcommit 3582d18c229a04ca2d9294b2b994218b506946c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: bertTWO <robertsambayon123@gmail.com>
+Date:   Sat May 31 09:07:34 2025 +0800
+
+    Final Compiler Works Contest Management Works
+
+[33mcommit 713b19654c764fb9ee9043190935d10fdc2ef4d4[m
+Author: bertTWO <robertsambayon123@gmail.com>
+Date:   Sun Apr 27 12:28:40 2025 +0800
+
+    Remove node_modules and vendor directories from tracking
+
+[33mcommit 359d2d2141b547a6baf5b5ad3408b83be848fde1[m
+Author: bertTWO <robertsambayon123@gmail.com>
+Date:   Sun Apr 27 12:23:06 2025 +0800
+
+    add a gitignore file
+
+[33mcommit 8a3bf81696cea85f2c537b6bb1b2bb8dff8ce167[m
+Author: bertTWO <robertsambayon123@gmail.com>
+Date:   Sun Apr 27 12:10:49 2025 +0800
+
+    first commit added a login and register with structure duh
